@@ -17,7 +17,7 @@ function makeMarkup(array) {
   const countiesQuantity = array.length;
   if (countiesQuantity > 10) {
     error({
-      delay: 4000,
+      delay: 3000,
       text: 'Too many matches found. Please enter a more specific query!',
     });
   } else if (countiesQuantity >= 2 && countiesQuantity <= 10) {
